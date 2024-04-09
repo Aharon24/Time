@@ -9,7 +9,7 @@ def alltime() :
             a  = (hour * 3600) +(60 * minute) + (second)
             return a 
         except ValueError :
-            print("Invalid input  Please enter the time in the format 'h:m:s'")
+            print("Invalid input   Please enter the time in the format 'h:m:s'")
         else:
              hour , minute, second = map(int,input("Insert time to count down (h:m:s)").split(":"))
 
